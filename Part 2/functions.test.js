@@ -15,6 +15,8 @@ describe('Math Functions', () => {
         expect(add(1,2)).toBe(3)
 
         expect(add(5,9)).toBe(14)
+
+        expect(add('5', '9')).toBe(14)
     });
     it('Should multiply num1 and num2 together and return the product', () => {
         expect(multiply(2,5)).toBe(10)

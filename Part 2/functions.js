@@ -6,7 +6,9 @@ module.exports = {
         return `Hello, ${name}`
     },
     add: (num1, num2) => {
-        sum = num1+num2
+        let newNum1 = +num1
+        let newNum2 = +num2
+        sum = newNum1+newNum2
         return sum
     }, 
     multiply: (num1, num2) => {
